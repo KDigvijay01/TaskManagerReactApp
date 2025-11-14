@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const client = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://task-manager-react-app-htud.vercel.app/api',
   timeout: 10000,
 });
 
